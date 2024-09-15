@@ -68,7 +68,7 @@ const PostItem = ({ data }) => {
                     onPress={() => setLike(prev => !prev)}
                 >
                     <AntDesign
-                        name={like ? 'heart' : 'heart-o'}
+                        name={like ? 'heart' : 'hearto'}
                         style={{
                             paddingRight: 10,
                             fontSize: 20,
